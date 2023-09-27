@@ -18,8 +18,7 @@ img {
 }
 
 p {
-  padding-left: 400px;
-  padding-right: 400px;
+  margin: auto;
   text-align: center;
 }
 
