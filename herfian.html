@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herfian</title>
+    <style>
+        img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.centered-text {
+    text-align: center;
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 2px solid blue;
+    padding: 4px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+    color: black;
+}
+
+.split-background {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, white 75%, rgb(192, 192, 212) 25%);
+  }
+
+.centered-form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group select,
+.form-group input[type="text"],
+.form-group textarea {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkblue;
+}
+    </style>
+</head>
+
+<body>
+    <div class="split-background">
+
+    <div class="centered-text">
+        <h1>Profile page</h1>
+    </div>
+
+    <div class="container">
+        <img src="https://drive.google.com/uc?id=1Mpc7mV4P9v2W-EQzv6O67pPw6u049tqm" alt="my photo">
+    </div>
+
+    <div class="centered-text">
+        <h2 style="color: blue;">About me</h2>
+    </div>
+
+    <div class="centered-text">
+        <p>Halo.. kenalin nama gw Herfian Muhammad Nur Fattah Putra Setya Aji, hehe nama gw panjang bet yak, panggil aja gw Fian. Gw lahir tanggal 5 April 2004, yap betul zodiak gw Aries dan umur gw sekarang udah 19 tahun. 
+            Sekarang gw lagi menempuh studi S1 ngambil jurusan PSTI di UPI Purwakarta dan gw baru semester 3. Plis jangan tanya kenapa gw ambil PSTI karna gw sendiri juga bingung (kata Aldi Taher ngga bingung kalo udah di Surga hehe). 
+            Oh iya, gw asalnya dari Bekasi, yap betul sebuah planet asing seperti Pluto. Udah gitu aja kali ya sedikit tentang profil gw karna gw bingung mau nulis apalagi hehe. Ok see u guyss.. Btw kalo mau follow ig gw bisa klik 'Continue' yak hehe <a href="https://instagram.com/hrfn.ftth?utm_source=qr&igshid=OGIxMTE0OTdkZA==">Continue</a></p>
+    </div>
+    
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Herfian Muhammad Nur Fattah Putra Setya Aji</th>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>2201002</td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td>Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <td>Instansi</td>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td>Nonton bola dan MotoGP</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+    </table>
+
+    <div class="centered-text">
+        <h2 style="color: blue;">Text me</h2>
+    </div>
+
+    <div class="centered-form">
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="">Pilih Negara</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="amerika">Amerika</option>
+                    <option value="jepang">Jepang</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write something.." required></textarea>
+            </div>
+            <div class="button-group">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+    
+    
+
+    </div>
+
+</body>
+
+</html>
