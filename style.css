@@ -23,8 +23,12 @@ img {
   scrollbar-shadow-color: #212121;
 }
 p {
+<<<<<<< HEAD
   margin-left: 150px;
   margin-right: 150px;
+=======
+  margin: auto;
+>>>>>>> 5d0f8cba6121b2812ba32696d0a38e4cc40982b0
   text-align: center;
 }
 
