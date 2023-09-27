@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Azhar</title>
+
+    <style>
+        .text-center {
+            text-align: center;
+        }
+        .style1 {
+            width: fit-content;
+            max-width: 450px;
+            margin: 0 auto;
+        }
+        .style2 {
+            text-align: center;
+            color: blue;
+            font-size: larger;
+        }
+        .label {
+            margin-top: 1px;
+            padding: 20px;
+            float: inherit;
+        }
+        .input {
+            width: 250px;
+            text-align: center;
+            font-size: smaller;
+        }
+        .button {
+            margin-left: 80px;
+            background-color: rgb(162, 185, 231);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>Profile Page</h1>
+    <div class="style1">
+    <img src="foto3.jpg" alt="foto" height="420" width="310">
+    <h3 style="color: blue;">About Me</h3>
+    <p>Namaku Azhar, umurku 19 tahun (taun depan dah 20 taun aja nih). Sekarang aku sedang menempuh pendidikan Sarjana-ku di Universitas Pendidikan Indonesia Kampus Daerah Purwakarta di program studi Pendidikan Sistem dan Teknologi Informasi. Aku berasal dari kota kuda yakni Kabupaten Kuningan Jawa Barat tepatnya di desa Citenjo. <a href="https://www.instagram.com/azhrnnnnn/">Akun Instagram</a></p>
+    </div>
+    <table border="1" cellspacing="0" cellpadding="7px">
+        <tr>
+            <th>Nama</th>
+            <th style="text-align: left;">Azhar Nurulhaifa</th>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>2202521</td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td>Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <td>Intansi</td>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>3A PSTI</td>
+        </tr>
+    </table>
+    <br>
+    
+    <form action="">
+        <fieldset style="background-color: lightgrey;">
+            <legend class="style2"><b>Text Me</b></legend>
+            <label for="email" class="label">Email</label>
+            <input type="email" id="email" name="email" value="azharnur183@gmail.com" class="input"> <br><br>
+            <label for="country" class="label">Country</label>
+            <input list="country" name="country" placeholder="Indonesia" class="input">
+            <datalist id="country">
+                <option value="Indonesia"></option>
+                <option value="Singapura"></option>
+                <option value="Korea Selatan"></option>
+            </datalist> <br><br>
+            <label for="message" class="label">Message</label>
+            <textarea cols="23" rows="5" name="message" placeholder="write something..." style="text-align: center;"></textarea><br><br>
+            <input type="submit" value="Send" class="button">
+        </fieldset>
+    </form>
+</center>
+</body>
