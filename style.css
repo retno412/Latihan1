@@ -14,12 +14,17 @@
 }
 
 img {
-  width: 15%;
+  width: 20%;
 }
-
+.jumbotron {
+  padding: 6rem;
+  background-image: url(langit.jpg);
+  background-size: cover;
+  scrollbar-shadow-color: #212121;
+}
 p {
-  padding-left: 400px;
-  padding-right: 400px;
+  margin-left: 150px;
+  margin-right: 150px;
   text-align: center;
 }
 
@@ -142,4 +147,10 @@ td {
 
 .button:hover .button__int {
   box-shadow: -15px -10px 30px -5px rgba(225, 0, 255, 0.8), 15px -10px 30px -5px rgba(255, 0, 212, 0.8), 15px 10px 30px -5px rgba(255, 174, 0, 0.8), -15px 10px 30px -5px rgba(255, 230, 0.8);
+}
+
+footer {
+  font-weight: bold;
+  text-align: center;
+  padding: 6rem;
 }
