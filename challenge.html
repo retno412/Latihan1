@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile</title>
+    <style>
+        body 
+        {  
+            max-width: 400px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            text-align: justify; 
+            font-family: Times new roman; 
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1> Profil Page</h1>
+    </center>
+
+    <center><img src="fotoak.jpg" alt="foto aku" width="200" height="260"></center>
+
+    <center>
+        <h3>About Me</h3>
+    </center>
+    <div class=""content>
+    <p>
+        Nama saya Amira. Saya adalah anak kedua dari tiga bersaudara. Di tahun 2023 ini, umur saya adalah 19 tahun. Saya berasal dari kota hujan, yaitu Kota Bogor, Jawa Barat. Saat ini, saya sedang merantau ke Purwakarta untuk menempuh pendidikan S1 di Universitas Pendidikan Indonesia Kampus Purwakarta dengan Program Studi Pendidikan Sistem dan Teknologi Informasi.
+    </p></div>
+
+    <p><table border= 2 , align="center" bgcolor="skyblue">
+        <tr>
+            <td>Nama</td>
+            <td>Amira</td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>2202598</td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td>Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <td>Instansi</td>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+    </table></p>
+
+    <form action="" method="post">
+        <table align="center" bgcolor="skyblue" width="60%">
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>Text Me</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="Italy">Italy</option>
+                        <option value="France">France</option>
+                        <option value="Australia">Australia</option>
+                        <option value="India">India</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Swiss">Swiss</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Turkey">Turkey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="alamat_email"></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><input type="text" name="pesan"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="proses" value="Send">
+                    <input type="button" name="kembali" value="Back" onclick="history.back()">
+                </td>
+            </tr>
+        </table>
+    </form>
+        
+
+</body>
+</html>
