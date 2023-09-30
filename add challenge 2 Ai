@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        form label,
+        form input,
+        form textarea,
+        form button {
+            margin: 5px 0;
+        }
+
+        form button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Profil Page</h1>
+
+    <img src="file:///C:/Users/Administrator/Downloads/ainur.jpeg" width="200px" height="200px">
+
+    <h2>About Me</h2>
+
+    <p>Mahasiswa semester 3 Prodi Pendidikan Sistem dan Teknologi Informasi di Universitas Pendidikan Indonesia yang menyukai di bidang IT <a href="https://instagram.com/ainuraiman174?igshid=OGU0MmVlOWVjOQ==">continue</a></p>
+
+    <table border="1">
+
+        <tr>
+            <td>Nama</td>
+            <td>Ai Nuraiman</td>
+        </tr>
+
+        <tr>
+            <td>NIM</td>
+            <td>2200647</td>
+        </tr>
+
+        <tr>
+            <td>Prodi</td>
+            <td>PSTI</td>
+        </tr>
+
+        <tr>
+            <td>Instansi</td>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+
+    </table>
+
+    <h2>Text Me</h2>
+    <form>
+        <label for="email">Email :</label>
+        <input type="email"> <br>
+        <label for="country">Country :</label>
+        <input type="text" list="countries" name="mycountry" />
+        <datalist id="countries">
+            <option value="Jepang">Jepang</option>
+            <option value="Korea">Korea</option>
+            <option value="Turki">Turki</option>
+            <option value="Tarim">Tarim</option>
+            <option value="Spanyol">Spanyol</option>
+            <option value="Prancis">Prancis</option>
+            <option value="Swiss">Swiss</option>
+            <option value="Indonesia">Indonesia</option>
+        </datalist><br>
+        <label for="Massage">Massage :</label>
+        <textarea name="komentar1" placeholder="write something.."></textarea><br>
+        <button>Send</button>
+    </form>
+
+</body>
+</html>
