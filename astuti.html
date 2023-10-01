@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ec6c6c;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: #e08080;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profil Page</h1>
+        <img src="https://i.pinimg.com/736x/a4/6b/66/a46b66f205e579d1ff240686784f73da.jpg" alt="Foto Astuti Solihatunnisa">
+        <h2>About Me</h2>
+        <p>Hallo, saya Astuti Solihatunnisa saya adalah mahasiswa di Universitas Pendidikan Indonesia Kampus Purwakarta. Program Studi Pendidikan Sistem dan Teknologi Informasi kelas 3B, saya berasal dari Bogor. Hoby saya adalah berolahraga dan memasak.</p>
+        <table class="center">
+            <tr>
+                <th>Nama</th>
+                <td>Astuti Solihatunnisa</td>
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <td>2208980</td>
+            </tr>
+            <tr>
+                <th>Instansi</th>
+                <td>Universitas Pendidikan Indonesia</td>
+            </tr>
+            <tr>
+                <th>Asal</th>
+                <td>Bogor</td>
+            </tr>
+            <tr>
+                <th>Hoby</th>
+                <td>Olahraga & masak</td>
+            </tr>
+        </table>
+        <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="country">Bahasa:</label>
+        <select id="country" name="country">
+            <option value="Indonesia">Indonesia</option>
+            <option value="English">English</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Kirim Pesan">
+    </form>
+</div>
+</body>
+</html>
