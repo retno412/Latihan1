@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 170vh;
+            margin: 0;
+            flex-direction: column; /* Mengatur tata letak elemen secara vertikal */
+        }
+
+        .profile-container, .about-container {
+            text-align: center;
+        }
+
+        profile-title {
+            margin-bottom: 10px:
+        }
+
+        .profile-image {
+            width: 200px; /* Ubah ukuran sesuai kebutuhan */
+            height: 200px; /* Ubah ukuran sesuai kebutuhan */
+        }
+
+        .about-container {
+            max-width: 200px; /* Atur lebar maksimum container sesuai kebutuhan */
+        }
+
+        .about-title {
+            color: pink; /* Warna biru untuk judul "About Me" */
+        }
+
+        .about-container p {
+            margin: 5px 0; /* Atur margin atas dan bawah pada paragraf */
+        }
+
+        table.vertical-table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        table.vertical-table th,
+        table.vertical-table td {
+            border: 1px solid #ddd
+            padding; 8px;
+            text-align: :left;
+        }
+
+         table.vertical-table th {
+             background-color: grey;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            width: 300px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profil Page</h1>
+        <img class="profile-image" src="foto.jpg" alt="Foto Profil Anda">
+    </div>
+
+    <div class="about-container">
+        <h1 class="about-title">About Me</h1>
+        <p>HAIIII!! panggil aku zara, aku mahasiswa Pendidikan Sistem dan Teknologi Informasi di UPI Kampus Purwakarta.</p>
+        <p>aku sekarang semester 3, doain semoga kuat sampai akhir yaaww!</p>
+        <!-- Tambahkan informasi deskripsi diri Anda sesuai kebutuhan -->
+    </div>
+
+    <table class="vertical-table">
+    <table border="1">
+        <tr>
+            <th><b>Nama</b></th>
+            <td><b>Azzahra Salsabilla</b></td>
+        </tr>
+        <tr>
+            <th><b>NIM</b></th>
+            <td><b>2207007</b></td>
+        </tr>
+        <tr>
+            <th><b>Program Studi</b></th>
+            <td><b>Pendidikan Sistem & Teknologi Informasi</b></td>
+        </tr>
+        <tr>
+            <th><b>Instansi</b></th>
+            <td><b>Universitas Pendidikan Indonesia Kamda Purwakarta</b></td>
+        </tr>
+    </table>
+    </table>
+
+    <div class="contact-form">
+        <h2>Text Me</h2>
+        <form>
+            <label for="country">Country:</label>
+            <input type="text" id="email" name="email" required>
+        </form>
+        <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Purwakarta">Purwakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Karanganyar">Karanganyar</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
