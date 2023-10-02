@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;}
+
+        h2 {
+            color: blue;}
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;}
+
+        table {
+            border-collapse: collapse;}
+
+        table, th, td {
+            border: 1px solid blue;}
+
+        th, td {
+            text-align: left; }
+
+        button {
+            background:darkgray;
+            color: black;
+            border: black; }
+
+        .no-border-table,
+        .no-border-table tr,
+        .no-border-table td {
+            border: none;
+        }
+
+        .table-input {
+            width: 300px;}
+
+        .blue-text {
+            color: blue;
+            margin: 0;}
+
+        .text-me {
+            background-color: darkgray;
+            padding: 10px;
+            margin-top: 5px;}
+    </style>
+</head>
+
+<body>
+    <h1>Profile Page</h1>
+
+    <img src="c:\Users\hp_16\Pictures\DWIKAA.jpg" alt="DWIKAA" width="200">
+
+    <h2>About Wikeuz</h2>
+    <p>Hallo nama asliku Dwika Jaya Fitrohyati, aku suka foto dan melukis pokoknya yang berbau seni aku suka dan aku juga suka awan.</p>
+
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <td align="left">Dwika Jaya Fitrohyati</td>
+        </tr>
+        <tr>
+            <th>NIM</th>
+            <td align="left">2206442</td>
+        </tr>
+        <tr>
+            <th>Prodi</th>
+            <td align="left">Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <th>Instansi</th>
+            <td align="left">Universitas Pendidikan Indonesia</td>
+        </tr>
+        <tr>
+            <th>Hobi</th>
+            <td align="left">Fotoin awan</td>
+        </tr>
+    </table>
+
+    <div class="text-me">
+        <h3 class="blue-text">Text Me</h3>
+      
+        <table class="no-border-table">
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" class="table-input"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country :</label></td>
+                <td>
+                    <select name="mycountry" id="mycountry" class="table-input">
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Amerika">Amerika</option>
+                        <option value="Jepang">Jepang</option>
+                        <option value="Korea">Korea</option>
+                        <option value="Singapore">Singapore</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="message">Message :</label></td>
+                <td>
+                    <textarea name="komentar1" rows="4" cols="50" class="table-input">write something..</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><button>Send</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
