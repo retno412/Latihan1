@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ainun Permatasari</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+        }
+        #deskripsi {
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        table, th, td {
+            border: 1px solid blue;
+            padding: 8pt;
+            margin: 0 auto;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        .color {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile page</h1>
+    
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrM-Iw5lL3ObRmpbbREyALfeDcYAH0btm0Aw_ui3z6R17MMp694fEi_2E9r3mAS9zzp4&usqp=CAU" alt="Photo" width="200" height="200">
+    </div>
+
+    <h2 class="color">About me</h2>
+    <div id="deskripsi">
+        <p>
+            Halo, Saya Ainun Permatasari. Biasanya teman-teman saya memanggil saya Tata. Saya adalah seseorang yang suka menjalani hidup dengan santai dan sendirian. Hobi saya menonton Anime, makan, tidur, dan bermain game. Saya juga sangat menyukai hewan dan saya mempunyai 5 hewan peliharaan. Kita sebut saja mereka semua dengan nama Sukunashinran. Jika Anda ingin tahu lebih banyak tentang saya, jangan ragu untuk bertanya!
+        </p>
+    </div>
+
+    <table border="1"
+        <tr>
+            <th>Nama</th>
+            <td>Ainun Permatasari</td>
+        </tr>
+        <tr>
+            <th>NIM</th>
+            <td>2209101</td>
+        </tr>
+        <tr>
+            <th>Jurusan</th>
+            <td>Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <th>Instansi</th>
+            <td>Universitas Pendidikan Indonesia Kampus Purwakarta</td>
+        </tr>
+    </table>
+
+    <h2 class="color">Text me</h2>
+    <form action="proses.php" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Select Country</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Filipina">Filipina</option>
+            <option value="Brunei Darussalam">Brunei Darussalam</option>
+            <option value="Vietnam">Vietnam</option>
+            <option value="Laos">Laos</option>
+            <option value="Jepang">Jepang</option>
+            <option value="Korea Selatan">Korea Selatan</option>
+            <option value="Belanda">Belanda</option>
+            <option value="Amerika">Amerika</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Write something..." required></textarea><br><br>
+
+        <input type="submit" value="Send" class="color">
+    </form>
+</body>
+</html>
