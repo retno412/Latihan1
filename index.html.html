@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitri Azzahra</title>
+
+    <style>
+    table.bio,
+    .bio th,
+    .bio td {
+        border: 2px solid coral;
+        border-collapse: collapse;
+    }
+
+    footer {
+        background-color: bisque;
+        flex-direction: column;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=email], select, textarea {
+        width: 130%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: coral;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Profile Page</h1>
+    
+    <center>
+    <img width="170px" src="fitriazzhr.png" alt="my photo"/>
+    </center>
+
+    <h2 style="text-align: center; color: coral;">About me</h2>
+    <center><p>Saya seorang mahasiswi semester 3 yang lahir di Bandung, 25 November 2003.</p>
+    <p>Sering dipanggil fitri, mpit, atau pipit. Saya anak pertama dari dua bersaudara. Memiliki hobi menonton drakor/film,</p>
+    <p>scroll tiktok, dan tidur. Saya juga suka mendengarkan musik dan membaca e-book ketika bosan menonton. </p>
+    <p>Selain menjadi mahasiswi, saya juga aktif dalam keorganisasian di kampus. <a target="_blank" href="https://www.instagram.com/_fitriazzahraa/?hl=en">Continue</a> to my insta account.</p>
+    </center>
+
+    <table align="center" class="bio">
+        <tr>
+          <th align="left">Nama</th>
+          <th align="left">Fitri Azzahra Hanifatunnisa</th>
+        </tr>
+        <tr>
+          <td>NIM</td>
+          <td>2204906</td>
+        </tr>
+        <tr>
+          <td>Prodi</td>
+          <td>Pendidikan Sistem dan Teknologi Informasi</td>
+        </tr>
+        <tr>
+            <td>Instansi</td>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+      </table>
+</body>
+
+<footer>
+    <form align="center" action="/action_page.php">
+
+        <h2 style="text-align: center; color: coral;">Text me</h2>
+        <table style="border: none;" class="textme" align="center">
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" placeholder="example@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><select id="country" name="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="malaysia">Malaysia</option>
+                    <option value="singapura">Singapura</option>
+                    <option value="australia">Australia</option>
+                    <option value="inggris">Inggris</option>
+                    <option value="korea">Korea</option>
+                    <option value="jepang">Jepang</option>
+                    <option value="cina">Cina</option>
+                    <option value="belanda">Belanda</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="massage">Massage</label></td>
+                <td><textarea id="massage" name="massage" placeholder="Write something.." style="height:150px"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+  </form>
+    </form>
+</footer>
+</html>
