@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; 
+        }
+
+        .profile-container, .about-container {
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 200px; 
+            height: 300px; 
+        }
+
+        .about-container {
+            max-width: 300px; 
+        }
+
+        .about-title {
+            color: blue;
+        }
+
+        .about-container p {
+            margin: 5px 0;
+        }
+
+        table.vertical-table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        table.vertical-table th,
+        table.vertical-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table.vertical-table th {
+            background-color: #f2f2f2;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            width: 300px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 100px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profil Page</h1>
+        <img class="profile-image" src="Ridhan.jpg.jpg" alt="Ridhan">
+    </div>
+
+    <div class="about-container">
+        <h1 class="about-title">About Me</h1>
+        <p>Hallo semuanya! Saya Muhammad Ridhan Fadli Rahman biasa dipanggil Ridhan. Saya berasal dari Pekalongan. Saya adalah mahasiswa di prodi PSTI Universitas Pendidikan Indonesia Kampus Purwakarta.</p>
+    </div>
+
+      <table class="vertikal-table">
+      <table border="1">
+        <tr>
+            <th>NIM</th>
+            <td>2202739</td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>Muhammad Ridhan Fadli Rahman</td>
+        </tr>
+        <tr>
+            <th>Prodi</th>
+            <td>PSTI</td>
+        </tr>
+        <tr>
+            <th>Instansi</th>
+            <td>Universitas Pendidikan Indonesia</td>
+        </tr>
+    </table>
+
+    <div class="contact-form">
+        <h2>Text Me</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="South Africa">Afrika Selatan</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Papua New Guinea">Papua New Guinea</option>
+                <option value="Purwakarta">Purwakarta</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
