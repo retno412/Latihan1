@@ -1,0 +1,48 @@
+
+h1, h2, h3, h4, h5, h6 {
+    color: pink;
+}
+
+
+body {
+    text-align: center; 
+}
+
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
+
+img {
+    width: 20%; 
+    display: block;
+    margin: 0 auto; 
+}
+p {
+    text-align: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: pink;
+}
+
+
+h2 {
+    border: 1px solid pink;
+    padding: 10px; 
+}
+
+form {
+    border: 1px solid pink;
+    padding: 20px;
+
+
+label {
+    display: block; 
+}
+
+
+textarea {
+
+}
